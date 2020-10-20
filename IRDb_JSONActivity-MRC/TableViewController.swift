@@ -18,46 +18,26 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
 
         title = "IRDb"
-//
-//        // 1
-//        let nav = self.navigationController?.navigationBar
-//
-//        // 2
-//        nav?.barStyle = UIBarStyle.black
-//        nav?.tintColor = UIColor.init(red: 245/255, green: 196/255, blue: 72/255, alpha: 1)
-//
-//        // 3
-//        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 44))
-//        imageView.contentMode = .scaleAspectFit
-//
-//        // 4
-//        let image = UIImage(named: "irdblogo")
-//        imageView.image = image
-//
-//        // 5
-//        navigationItem.titleView = imageView
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        
+
         // 1
         let nav = self.navigationController?.navigationBar
-      
+
         // 2
         nav?.barStyle = UIBarStyle.black
         nav?.tintColor = UIColor.init(red: 245/255, green: 196/255, blue: 72/255, alpha: 1)
-      
+
         // 3
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 44))
         imageView.contentMode = .scaleAspectFit
-          
+
         // 4
         let image = UIImage(named: "irdblogo")
         imageView.image = image
-          
+
         // 5
         navigationItem.titleView = imageView
     }
+    
 
     // MARK: - Table view data source
     
