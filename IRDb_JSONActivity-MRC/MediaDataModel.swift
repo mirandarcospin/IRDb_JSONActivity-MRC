@@ -21,7 +21,7 @@ class Entry: Codable{
     let format: String
     let yearStart: String
     let yearEnd: String?
-    let empisode: Int?
+    let episode: Int?
     let studio: String?
     let network: String?
     let imageURL: String
