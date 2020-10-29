@@ -8,11 +8,6 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-
-    //Dummy test
-//    var outerArray = ["First Sect. Name", "Second Sect. Name"]
-//    var innerArray1 = ["First Thing", "Second Thing", "Third Thing"]
-//    var innerArray2 = ["First Thing", "Second Thing", "Third Thing", "FOURTH Thing!"]
     
     var mediaModel: MediaDataModel? {
         didSet {

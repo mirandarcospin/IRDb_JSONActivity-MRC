@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EEB4CC822541C27500B12C64 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB4CC812541C27500B12C64 /* DataController.swift */; };
 		EEB4CC852541C28E00B12C64 /* MediaDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB4CC842541C28E00B12C64 /* MediaDataModel.swift */; };
+		EEBFB188254B05C0008D523B /* CastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBFB187254B05C0008D523B /* CastTableViewController.swift */; };
 		EEEB0C07253F5A3B005FB0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB0C06253F5A3B005FB0E4 /* AppDelegate.swift */; };
 		EEEB0C09253F5A3B005FB0E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB0C08253F5A3B005FB0E4 /* SceneDelegate.swift */; };
 		EEEB0C0B253F5A3B005FB0E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB0C0A253F5A3B005FB0E4 /* DetailViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		EEB4CC812541C27500B12C64 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		EEB4CC842541C28E00B12C64 /* MediaDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDataModel.swift; sourceTree = "<group>"; };
+		EEBFB187254B05C0008D523B /* CastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastTableViewController.swift; sourceTree = "<group>"; };
 		EEEB0C03253F5A3B005FB0E4 /* IRDb_JSONActivity-MRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IRDb_JSONActivity-MRC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEB0C06253F5A3B005FB0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEEB0C08253F5A3B005FB0E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				EEEB0C1D253F5E6B005FB0E4 /* TableViewController.swift */,
 				EEB4CC812541C27500B12C64 /* DataController.swift */,
 				EEB4CC842541C28E00B12C64 /* MediaDataModel.swift */,
+				EEBFB187254B05C0008D523B /* CastTableViewController.swift */,
 			);
 			path = "IRDb_JSONActivity-MRC";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				EEB4CC822541C27500B12C64 /* DataController.swift in Sources */,
 				EEEB0C0B253F5A3B005FB0E4 /* DetailViewController.swift in Sources */,
+				EEBFB188254B05C0008D523B /* CastTableViewController.swift in Sources */,
 				EEB4CC852541C28E00B12C64 /* MediaDataModel.swift in Sources */,
 				EEEB0C07253F5A3B005FB0E4 /* AppDelegate.swift in Sources */,
 				EEEB0C09253F5A3B005FB0E4 /* SceneDelegate.swift in Sources */,
