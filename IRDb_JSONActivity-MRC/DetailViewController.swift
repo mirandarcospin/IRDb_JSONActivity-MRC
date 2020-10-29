@@ -36,6 +36,7 @@ class DetailViewController: UIViewController {
 
         nav?.barStyle = UIBarStyle.black
         nav?.tintColor = UIColor.init(red: 245/255, green: 196/255, blue: 72/255, alpha: 1)
+        nav?.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.init(red: 245/255, green: 196/255, blue: 72/255, alpha: 1)]
         
         configureView()
         

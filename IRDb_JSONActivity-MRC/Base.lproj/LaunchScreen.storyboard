@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,18 +15,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IRDb by Miranda Ramirez Cospin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTQ-aX-c18">
-                                <rect key="frame" x="82.5" y="437.5" width="249" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miranda Ramirez Cospin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTQ-aX-c18">
+                                <rect key="frame" x="50" y="676" width="314" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FTQ-aX-c18" secondAttribute="height" multiplier="157:18" id="Hlk-gx-d9q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Oic-IN-qrN">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Oic-IN-qrN" secondAttribute="height" multiplier="1:1" id="p8w-IK-efj"/>
+                                </constraints>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="irdblogo" translatesAutoresizingMaskIntoConstraints="NO" id="mSd-pH-Hm1">
+                                <rect key="frame" x="87" y="194" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="fGz-2S-2BE"/>
+                                    <constraint firstAttribute="width" secondItem="mSd-pH-Hm1" secondAttribute="height" multiplier="15:8" id="j8X-zQ-Hoy"/>
+                                    <constraint firstAttribute="width" constant="240" id="kfp-XB-C1d"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="FTQ-aX-c18" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YML-Uf-fiD"/>
-                            <constraint firstItem="FTQ-aX-c18" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="e6a-J2-Px3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FTQ-aX-c18" secondAttribute="trailing" constant="50" id="CJ5-8Z-jts"/>
+                            <constraint firstItem="Oic-IN-qrN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SSI-tU-EfJ"/>
+                            <constraint firstItem="mSd-pH-Hm1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="cBy-yl-Sct"/>
+                            <constraint firstItem="mSd-pH-Hm1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="eZ2-pR-Ofh"/>
+                            <constraint firstItem="Oic-IN-qrN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gjR-83-5z6"/>
+                            <constraint firstItem="FTQ-aX-c18" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="icc-MY-FDQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FTQ-aX-c18" secondAttribute="bottom" constant="150" id="mDk-ri-NvH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mSd-pH-Hm1" secondAttribute="trailing" constant="87" id="rdb-1G-9SG"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,8 +60,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="irdblogo" width="51.5" height="25.5"/>
     </resources>
 </document>
